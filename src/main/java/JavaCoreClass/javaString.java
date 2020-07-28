@@ -4,6 +4,7 @@ package JavaCoreClass;
 import java.io.UnsupportedEncodingException;
 import java.util.Enumeration;
 import java.util.Properties;
+import java.util.Arrays;
 
 public class javaString {
     //    实际上字符串在String内部是通过一个char[]数组表示的
