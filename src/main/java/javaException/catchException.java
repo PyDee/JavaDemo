@@ -1,4 +1,5 @@
-package javaException;
+// stringbuilder 是一个用来处理多个字符串拼接的类
+package src.main.java.javaException;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;

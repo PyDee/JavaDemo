@@ -1,5 +1,5 @@
 // java 核心类-String
-package JavaCoreClass;
+package src.main.java.JavaCoreClass;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Enumeration;
