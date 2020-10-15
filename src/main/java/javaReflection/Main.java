@@ -1,7 +1,7 @@
 // 反射
 // Java的反射是指程序在运行期可以拿到一个对象的所有信息
 // 反射是为了解决在运行期，对某个实例一无所知的情况下，如何调用其方法,没有导入该类
-package javaReflection;
+package main.java.javaReflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -29,16 +29,16 @@ public class Main {
 
 
         // 非0number/0.0
-        System.out.println((double)(5/0.0));
+        System.out.println((double) (5 / 0.0));
 
         // 0/0.0
-        System.out.println((double)(0/0.0));
+        System.out.println((double) (0 / 0.0));
 
         // 0.0/0.0
-        System.out.println((double)(0.0/0.0));
+        System.out.println((double) (0.0 / 0.0));
 
         // MAX_VALUE/MIN_VALUE
-        System.out.println((double)(Double.MAX_VALUE/Double.MIN_VALUE));
+        System.out.println((double) (Double.MAX_VALUE / Double.MIN_VALUE));
 
 
     }

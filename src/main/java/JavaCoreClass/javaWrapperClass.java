@@ -2,12 +2,10 @@
 // java 中的基本数据类型： byte  int  short  long  char  boolean  float  double
 // java 中的引用数据类型： class  interface
 // Integer 就是 int 的引用数据类型定义的类，基本数据类型都有其对应的引用实现
-package src.main.java.JavaCoreClass;
+package main.java.JavaCoreClass;
 
-import java.lang.Math;
 import java.math.BigInteger;
 
-import cn.hutool.core.date.Week;
 
 public class javaWrapperClass {
     public static void main(String[] args) {
@@ -24,7 +22,7 @@ public class javaWrapperClass {
 
     private static void testLong() {
         BigInteger l = BigInteger.valueOf(123456898);
-        System.out.println(l.pow(50000000));
+        System.out.println(l.pow(5));
     }
 
     private static String getType(Object a) {
