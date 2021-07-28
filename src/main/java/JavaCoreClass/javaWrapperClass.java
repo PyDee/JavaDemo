@@ -2,7 +2,7 @@
 // java 中的基本数据类型： byte  int  short  long  char  boolean  float  double
 // java 中的引用数据类型： class  interface
 // Integer 就是 int 的引用数据类型定义的类，基本数据类型都有其对应的引用实现
-package main.java.JavaCoreClass;
+package JavaCoreClass;
 
 import java.math.BigInteger;
 

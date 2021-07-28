@@ -1,7 +1,6 @@
-package src.main.java.JavaCoreClass;
+package JavaCoreClass;
 
 import java.util.StringJoiner;
-import java.lang.Integer;
 
 public class javaStringJoiner {
     public static void main(String[] args) {

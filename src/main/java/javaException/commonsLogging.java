@@ -1,8 +1,6 @@
 // Commons Logging是一个第三方日志库，它是由Apache创建的日志模块
-package main.java.javaException;
+package javaException;
 
-
-import com.sun.tools.javac.Main;
 
 //import org.apache.commons.logging.Log;
 //import org.apache.commons.logging.LogFactory;

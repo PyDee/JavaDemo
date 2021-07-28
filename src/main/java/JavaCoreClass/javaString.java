@@ -1,10 +1,9 @@
 // java 核心类-String
-package src.main.java.JavaCoreClass;
+package JavaCoreClass;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Enumeration;
 import java.util.Properties;
-import java.util.Arrays;
 
 public class javaString {
     //    实际上字符串在String内部是通过一个char[]数组表示的
@@ -42,6 +41,22 @@ public class javaString {
         System.out.println(s1);
     }
 
+    public static void addStr(String str1, String str2) {
+        String str3 = str1.concat(str2);
+        System.out.println("拼接后的 str1 和 str2： ".concat(str3));
+
+    }
+
+    public static void formatStr(String str) {
+        String fs;
+        float floatVar = (float) 1.5;
+        int intVar = 123;
+        String strVar = "abc";
+
+        fs = String.format(str, floatVar, intVar, strVar);
+//        fs = String.format("浮点型变量的值为 %f, 整型变量的值为  %d, 字符串变量的值为  %s", floatVar, intVar, strVar);
+        System.out.println(fs);
+    }
 
     public static void main(String[] args) throws UnsupportedEncodingException {
         javaString js = new javaString();
@@ -58,6 +73,14 @@ public class javaString {
 //        System.out.println(CharToString());
         System.out.println("--------");
         EncodingChange();
+
+        String str1 = "Hello ";
+        String str2 = "World ！";
+        addStr(str1, str2);
+
+        // 测试拼接字符串
+        String str = "浮点型变量的值为 %f, 整型变量的值为  %d, 字符串变量的值为  %s";
+        formatStr(str);
     }
 
 }
